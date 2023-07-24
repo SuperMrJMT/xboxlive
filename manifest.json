@@ -1,8 +1,8 @@
 {
-    "manifest_version": 3,
-    "name": "X Be Gone",
+    "manifest_version": 2,
+    "name": "XBOX LIVE",
     "version": "1.0",  
-    "description": "Removes the ugly X from Twitter and replaces it with the original Twitter logo.",
+    "description": "Removes the ugly X from Twitter and replaces it with XBOX LIVE!!",
     "icons": {
         "16": "icons/xbegone-16.png",
         "48": "icons/xbegone-48.png",

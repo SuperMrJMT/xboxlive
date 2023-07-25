@@ -1,5 +1,5 @@
 {
-    "manifest_version": 2,
+    "manifest_version": 3,
     "name": "XBOX LIVE",
     "version": "1.0",  
     "description": "Removes the ugly X from Twitter and replaces it with XBOX LIVE!!",
@@ -16,6 +16,10 @@
         }
     ],
     "web_accessible_resources": [
-        "files/twitter.ico"
-    ]
+	{
+			"resources": [ "files/twitter.ico" ],
+			"matches": ["*://*.twitter.com/*"]
+	}
+]
+
 }

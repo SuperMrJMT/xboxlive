@@ -24,6 +24,6 @@ function replaceLogo(logo) {
 function replaceFavicon() {
     const favicon = document.createElement("link");
     favicon.rel = "icon";
-    favicon.href = browser.runtime.getURL("files/twitter.ico");
+    favicon.href = chrome.runtime.getURL("files/twitter.ico");
     document.head.appendChild(favicon);
 }
